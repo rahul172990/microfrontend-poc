@@ -34,28 +34,31 @@ This project demonstrates a **Microfrontend Architecture** using **Vite, React, 
 
 
 ## 🛠️ Installation & Setup
-   Clone the repository:
-   git clone project
-   cd microfrontend-poc
+ -  Clone the repository:
+ -  git clone project
+ -  cd microfrontend-poc
 
   Start each microfrontend in separate terminals:
-  cd main && npm install && npm run build
-  cd chat && npm install && npm run build
-  cd email && npm install && npm run build
+  1️⃣ cd main && npm install && npm run build
+  2️⃣ cd chat && npm install && npm run build
+  3️⃣ cd email && npm install && npm run build
+
+📌 **Important:** the project will only work if all the builds are running. This project is build on windows system so i have to installed the concurrent build command to run serve the build. It may be different with mac or linux.
+  
 
   Running ports
-  Main	 5173	http://localhost:5173/
-  Chat	 5001	http://localhost:5001/
-  Email  5002	http://localhost:5002/
+  🚀 Main	 5173	http://localhost:5173/
+  🚀 Chat	 5001	http://localhost:5001/
+  🚀 Email 5002	http://localhost:5002/
 
   Access the Host Application and Open the browser and go to: http://localhost:5173
 
  ** Verify Remote Entry Files**
 
   Check if each remote entry is accessible:
-  Host App Remote Entry: http://localhost:5173/assets/remoteEntry.js
-  Chat App Remote Entry: http://localhost:5001/assets/remoteEntry.js
-  Email App Remote Entry: http://localhost:5002/assets/remoteEntry.js
+  🚀 Host App Remote Entry: http://localhost:5173/assets/remoteEntry.js
+  🚀 Chat App Remote Entry: http://localhost:5001/assets/remoteEntry.js
+  🚀 Email App Remote Entry: http://localhost:5002/assets/remoteEntry.js
 
   
 **🎯 How It Works**
